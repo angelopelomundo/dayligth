@@ -17,6 +17,7 @@ document.getElementById('subscribe').onclick = async () => {
     });
 
     alert('Notificações ativadas!');
+document.getElementById('subscribe').style.display = 'none';
   }
 };
 

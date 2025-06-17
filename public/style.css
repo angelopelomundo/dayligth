@@ -96,12 +96,12 @@ input, textarea {
   justify-content: center;
   font-family: 'Poppins', 'Nunito', Arial, sans-serif;
   font-size: 1.6em;
-  color: #fffbe9;
+  color: #2d89ef;
   text-align: center;
   padding: 32px 18px;
   margin: 0 auto;
   transition: box-shadow 0.3s;
   backdrop-filter: blur(7px);
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 1.5px;
 }

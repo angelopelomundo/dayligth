@@ -1,7 +1,6 @@
 // public/main.js
 
-const publicVapidKey = 'BIRP4HMSsJ6sRJIOlZJLNehZAaGlZq0WYuqYmsVhU_sAUoGKkdxYHhj4dM8aKA0od3pc2DAZ5lkHEzmw
-fIywpL8'; // Troque depois de gerar as chaves
+const publicVapidKey = 'BIRP4HMSsJ6sRJIOlZJLNehZAaGlZq0WYuqYmsVhU_sAUoGKkdxYHhj4dM8aKA0od3pc2DAZ5lkHEzmwfIywpL8'; // Troque depois de gerar as chaves
 
 document.getElementById('subscribe').onclick = async () => {
   if ('serviceWorker' in navigator) {

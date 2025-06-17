@@ -2,8 +2,8 @@
 const webpush = require('web-push');
 
 // Substitua pelas suas chaves VAPID geradas
-const publicVapidKey = 'SUA_CHAVE_PUBLICA_VAPID_AQUI';
-const privateVapidKey = 'SUA_CHAVE_PRIVADA_VAPID_AQUI';
+const publicVapidKey = 'BIRP4HMSsJ6sRJIOlZJLNehZAaGlZq0WYuqYmsVhU_sAUoGKkdxYHhj4dM8aKA0od3pc2DAZ5lkHEzmwfIywpL8';
+const privateVapidKey = 'ndaqkhMK3bAaybZZgs2g8cOO4vFZlRxTisMXEcLiTS8';
 
 webpush.setVapidDetails(
   'mailto:seuemail@email.com', // Troque para seu email

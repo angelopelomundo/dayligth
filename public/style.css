@@ -105,3 +105,29 @@ input, textarea {
   font-weight: 700;
   letter-spacing: 1.5px;
 }
+
+.topo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.logo-grande {
+  width: 128px;      /* ajuste como preferir */
+  height: 128px;
+  border-radius: 32px; /* deixa a logo arredondada, se desejar */
+  box-shadow: 0 4px 16px rgba(45,137,239,0.12);
+  margin-bottom: 12px;
+}
+
+.titulo-app {
+  font-family: 'Poppins', 'Nunito', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #2d89ef;
+  letter-spacing: 2px;
+  margin: 0 0 16px 0;
+  text-align: center;
+}

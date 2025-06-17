@@ -1,0 +1,51 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #b9e8ff 0%, #ffefdb 100%);
+  color: #fffbe9;
+  font-family: 'Poppins', 'Nunito', 'Google Sans', Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+}
+
+a, .highlight, .icon-sun {
+  color: #FFD600;
+}
+
+.button, button {
+  background: #FFD600;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 18px 0 rgba(255, 214, 0, 0.15);
+  font-size: 1.1em;
+  padding: 12px 28px;
+  font-family: inherit;
+  transition: box-shadow 0.2s, transform 0.2s;
+  cursor: pointer;
+}
+
+.button:active, button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 8px 0 rgba(255, 214, 0, 0.12);
+}
+
+.card, .glass {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(8px);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.10);
+  padding: 24px;
+  margin: 18px 0;
+  border: 1px solid rgba(255,255,255,0.10);
+}
+
+input, textarea {
+  background: rgba(255,255,255,0.38);
+  border: none;
+  border-radius: 14px;
+  padding: 10px 16px;
+  box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.04);
+  font-family: inherit;
+}
